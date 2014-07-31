@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/* Knuth shuffle */
+/* Random sequence of integers each having 31 random bits */
 void rand_flip(int n, int *flip)
 {
 	int i;
